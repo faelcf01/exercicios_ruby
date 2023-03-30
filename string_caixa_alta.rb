@@ -1,20 +1,8 @@
 # Escreva um programa que leia uma string e imprima a mesma string em caixa alta.
 
-print "Escreva uma frase: "
+print "Digite uma frase com letras minusculas :"
 
-words = gets.chomp
+frase = gets.chomp
 
-words.each_char do |char|
-
- if words < word.lowecase
-    words > word.uppercase
-
-else words > word.lowecase
-     words < word.uppercase   
- end 
-end
-
-
-
- puts words
+puts frase.upcase
 
