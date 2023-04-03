@@ -6,11 +6,11 @@ numbers = gets.chomp.split(',').map(&:to_i)
 
 numbers.each do |number|
 
-if numbers % 2 == 0
+if number % 2 == 0
     puts number
 
 else 
-    puts " "
+   
 
 end
 end
