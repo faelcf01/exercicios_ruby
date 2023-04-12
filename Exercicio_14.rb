@@ -1,4 +1,4 @@
-#Escreva um programa que leia uma lista de números e calcule a soma dos elementos ímpares.
+#Escreva um programa que leia uma lista de números e calcule a soma dos elementos pares.
 
 print "Digite 5 numeros com virgula entre eles :"
 
@@ -8,9 +8,10 @@ sum = 0
 
 numbers.each do |number|
 
-if number % 2 == 1 
+if number % 2 == 0
 
-   sum = sum + number
+sum = sum + number
+
 
 end
 end
